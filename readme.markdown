@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a3727f0e-9999-463d-a949-d1c1cb5265e4/deploy-status)](https://app.netlify.com/sites/switch-game/deploys)
 
-[Live demo](switch-game.netlify.app)
+**[Live demo](https://switch-game.netlify.app)**
 
 ## Rules
 
