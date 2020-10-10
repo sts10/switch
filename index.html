@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Switch!</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <div id="title">Switch!</div>
+  <div id="board">
+    <canvas id="1" width=51 height=51 style="border-style:solid; border-width:2px;"></canvas>
+    <canvas id="2" width=51 height=51 style="border-style:solid; border-width:2px;"></canvas>
+    <canvas id="3" width=51 height=51 style="border-style:solid; border-width:2px;"></canvas>
+    <canvas id="4" width=51 height=51 style="border-style:solid; border-width:2px;"></canvas>
+    <canvas id="5" width=51 height=51 style="border-style:solid; border-width:2px;"></canvas>
+    <canvas id="6" width=51 height=51 style="border-style:solid; border-width:2px;"></canvas>
+    <canvas id="7" width=51 height=51 style="border-style:solid; border-width:2px;"></canvas>
+    <canvas id="8" width=51 height=51 style="border-style:solid; border-width:2px;"></canvas>
+    <canvas id="9" width=51 height=51 style="border-style:solid; border-width:2px;"></canvas>
+  </div>
+  <div class="text">
+    <strong>Number of Moves in Current Game:</strong> <span id="number_of_moves">0</span>
+  </div>
+
+  <div class="text">
+    <strong>Instructions:</strong>
+    Each turn, the player can move any one token to an unoccupied adjacent space or jump over 
+    exactly one token (of either color) to move to the unoccupied space. Click on a token to move it to the unoccupied space.
+  </div>
+  <div class="text">
+    <strong>Objective:</strong>
+    Switch the pieces so that the blue tokens all end up on the left side of the board 
+    and the red tokens are on the right, with the middle square again empty.
+    <br><br>
+    Do it in the shortest number of moves possible!
+  </div>
+
+  <script src="switch.js"></script>
+</body>
+</html>
